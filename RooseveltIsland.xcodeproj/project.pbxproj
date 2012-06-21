@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6B49EED158CE079005F7969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B49EEC158CE079005F7969 /* UIKit.framework */; };
+		E6B49EEF158CE079005F7969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B49EEE158CE079005F7969 /* Foundation.framework */; };
+		E6B49EF1158CE079005F7969 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B49EF0158CE079005F7969 /* CoreGraphics.framework */; };
+		E6B49EF7158CE079005F7969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6B49EF5158CE079005F7969 /* InfoPlist.strings */; };
+		E6B49EF9158CE079005F7969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B49EF8158CE079005F7969 /* main.m */; };
+		E6B49EFD158CE079005F7969 /* RooseveltIslandAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B49EFC158CE079005F7969 /* RooseveltIslandAppDelegate.m */; };
+		E6B49F05158CE0A7005F7969 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B49F04158CE0A7005F7969 /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6B49EE8158CE079005F7969 /* RooseveltIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RooseveltIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B49EEC158CE079005F7969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6B49EEE158CE079005F7969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6B49EF0158CE079005F7969 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6B49EF4158CE079005F7969 /* RooseveltIsland-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RooseveltIsland-Info.plist"; sourceTree = "<group>"; };
+		E6B49EF6158CE079005F7969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6B49EF8158CE079005F7969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6B49EFA158CE079005F7969 /* RooseveltIsland-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RooseveltIsland-Prefix.pch"; sourceTree = "<group>"; };
+		E6B49EFB158CE079005F7969 /* RooseveltIslandAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RooseveltIslandAppDelegate.h; sourceTree = "<group>"; };
+		E6B49EFC158CE079005F7969 /* RooseveltIslandAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RooseveltIslandAppDelegate.m; sourceTree = "<group>"; };
+		E6B49F03158CE0A7005F7969 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		E6B49F04158CE0A7005F7969 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B49EE5158CE079005F7969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B49EED158CE079005F7969 /* UIKit.framework in Frameworks */,
+				E6B49EEF158CE079005F7969 /* Foundation.framework in Frameworks */,
+				E6B49EF1158CE079005F7969 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B49EDD158CE079005F7969 = {
+			isa = PBXGroup;
+			children = (
+				E6B49F03158CE0A7005F7969 /* View.h */,
+				E6B49F04158CE0A7005F7969 /* View.m */,
+				E6B49EF2158CE079005F7969 /* RooseveltIsland */,
+				E6B49EEB158CE079005F7969 /* Frameworks */,
+				E6B49EE9158CE079005F7969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B49EE9158CE079005F7969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B49EE8158CE079005F7969 /* RooseveltIsland.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B49EEB158CE079005F7969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B49EEC158CE079005F7969 /* UIKit.framework */,
+				E6B49EEE158CE079005F7969 /* Foundation.framework */,
+				E6B49EF0158CE079005F7969 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6B49EF2158CE079005F7969 /* RooseveltIsland */ = {
+			isa = PBXGroup;
+			children = (
+				E6B49EFB158CE079005F7969 /* RooseveltIslandAppDelegate.h */,
+				E6B49EFC158CE079005F7969 /* RooseveltIslandAppDelegate.m */,
+				E6B49EF3158CE079005F7969 /* Supporting Files */,
+			);
+			path = RooseveltIsland;
+			sourceTree = "<group>";
+		};
+		E6B49EF3158CE079005F7969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B49EF4158CE079005F7969 /* RooseveltIsland-Info.plist */,
+				E6B49EF5158CE079005F7969 /* InfoPlist.strings */,
+				E6B49EF8158CE079005F7969 /* main.m */,
+				E6B49EFA158CE079005F7969 /* RooseveltIsland-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B49EE7158CE079005F7969 /* RooseveltIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B49F00158CE079005F7969 /* Build configuration list for PBXNativeTarget "RooseveltIsland" */;
+			buildPhases = (
+				E6B49EE4158CE079005F7969 /* Sources */,
+				E6B49EE5158CE079005F7969 /* Frameworks */,
+				E6B49EE6158CE079005F7969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RooseveltIsland;
+			productName = RooseveltIsland;
+			productReference = E6B49EE8158CE079005F7969 /* RooseveltIsland.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B49EDF158CE079005F7969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RooseveltIsland;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Abel / Noser Corp";
+			};
+			buildConfigurationList = E6B49EE2158CE079005F7969 /* Build configuration list for PBXProject "RooseveltIsland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6B49EDD158CE079005F7969;
+			productRefGroup = E6B49EE9158CE079005F7969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B49EE7158CE079005F7969 /* RooseveltIsland */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B49EE6158CE079005F7969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B49EF7158CE079005F7969 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B49EE4158CE079005F7969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B49EF9158CE079005F7969 /* main.m in Sources */,
+				E6B49EFD158CE079005F7969 /* RooseveltIslandAppDelegate.m in Sources */,
+				E6B49F05158CE0A7005F7969 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6B49EF5158CE079005F7969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B49EF6158CE079005F7969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6B49EFE158CE079005F7969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6B49EFF158CE079005F7969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B49F01158CE079005F7969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RooseveltIsland/RooseveltIsland-Prefix.pch";
+				INFOPLIST_FILE = "RooseveltIsland/RooseveltIsland-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6B49F02158CE079005F7969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RooseveltIsland/RooseveltIsland-Prefix.pch";
+				INFOPLIST_FILE = "RooseveltIsland/RooseveltIsland-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B49EE2158CE079005F7969 /* Build configuration list for PBXProject "RooseveltIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B49EFE158CE079005F7969 /* Debug */,
+				E6B49EFF158CE079005F7969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B49F00158CE079005F7969 /* Build configuration list for PBXNativeTarget "RooseveltIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B49F01158CE079005F7969 /* Debug */,
+				E6B49F02158CE079005F7969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6B49EDF158CE079005F7969 /* Project object */;
+}
